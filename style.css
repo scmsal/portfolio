@@ -177,6 +177,14 @@ h2 {
   margin-left: 30px;
 }
 
+.project-card a{
+  color: blue;
+  text-decoration: underline;
+}
+.project-card a:hover{
+  cursor: pointer;
+  text-weight: bolder;
+}
 /* Contact*/
 
 .footer {
