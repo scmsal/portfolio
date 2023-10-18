@@ -178,17 +178,18 @@ h2 {
 }
 
 .projectbutton{
-  width: fit-content;
+  width: 45px;
   color: white;
+  font-size: 20px;
+  margin-left: 30px;
   background-color: #2F659F;
-  padding: 15px;
-  color: blue;
+  padding: 10px;
   text-decoration: underline;
 }
 
 .projectbutton:hover{
   cursor: pointer;
-  text-weight: bolder;
+  font-weight: bolder;
 }
 
 /* Contact*/
