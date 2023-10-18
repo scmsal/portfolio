@@ -197,6 +197,12 @@ h2 {
   font-family: "Merriweather", Helvetica, Arial, Verdana, "Gill Sans", serif;
 }
 
+.projectbutton{
+  width: fit-content;
+  color: white;
+  background-color: #2F659F;
+  padding: 15px;
+}
 .footer img {
   width:50px;
   float: left;
