@@ -178,7 +178,7 @@ h2 {
 }
 
 .projectbutton{
-  width: 45px;
+  width: fit-content;
   color: white;
   font-size: 20px;
   margin-left: 30px;
