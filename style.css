@@ -185,6 +185,7 @@ h2 {
   background-color: #2F659F;
   padding: 10px;
   text-decoration: underline;
+  display: row;
 }
 
 .projectbutton:hover{
