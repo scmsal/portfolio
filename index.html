@@ -25,14 +25,15 @@
     <!-- About Me -->
     <section id="about-me" class="container">
       <div>
-        <img src="html_finalprojimages/3.png" class="profile_image"/>
+       
+        <img src= "html_finalprojimages/mymacbook.png" class="profile_image"/>
       </div>
       <div>
           <h1>
             Live, learn, code
           </h1>
           <p>
-            I am an aspiring Java developer with a background in languages and education. After having completed courses on Java, cloud computing, and web development, 
+            I'm an aspiring Java developer with a background in languages and education. After having completed a Professional Certificate in Introduction to Java Programming, and introductory courses on cloud computing and web development, 
             I am excited to continue learning and advancing on my new career path.
           </p>
       </div>
@@ -45,6 +46,10 @@
 
       <div class="all_skills">
         <div class="skill">
+          <img src="html_finalprojimages/java.png"/>
+        </div>  
+
+        <div class="skill">
           <img src="html_finalprojimages/html5.png"/>
         </div>  
 
@@ -56,16 +61,12 @@
           <img src="html_finalprojimages/CSS3.png"/>
         </div>  
 
-        <div class="skill">
-          <img src="html_finalprojimages/java.png"/>
-        </div>  
-
        <div class="skill">
           <img src="html_finalprojimages/github-mark.png"/>
         </div> 
 
       <div class="skill">
-        <img src="html_finalprojimages/OCIF2023CA-crop.jpeg"/>
+        <img src="html_finalprojimages/OCIF2023CA-crop.jpeg" style=" height:200px;"/>
       </div>
     </section>
           
@@ -78,41 +79,83 @@
 
         <div id="projects-container" class="projects-container">
           <div class="project-card">
-            <h3>WordPress website</h3>
+            <h3>This website</h3>
             <ul>
-              <li>Modified a WordPress template to create a multi-page marketing website using HTML and CSS3.</li>
+              <li>Created with HTML and CSS3. Originally based on a template provided by the Introduction to Web Development 
+                course. I changed the layout, contents, and style, adding buttons, icons, fonts, and links.
+              </li>
             </ul>
           </div>
           <hr>
           <div class="project-card">
             <h3>Calculator</h3>
             <ul>
-              <li>Developed and styled a single-page website for metric to imperial unit conversion using JavaScript, HTML, and CSS3. </li>
+              <li>Developed and styled a single-page website for metric to imperial unit conversion using JavaScript, HTML, and CSS3. 
+                I merged it with another project, a simple interest calculator.
+              </li>
               
               <div class="projectbutton" style="clear:both;">
-                <a href= https://github.com/scmsal/calculator>View on GitHub </a>
+                <a href= "https://github.com/scmsal/calculator">View on GitHub </a>
               </div>
               <div class="projectbutton" style="clear:both;">
-                <a href="https://scmsal.github.io/portfolio/">View in browser</a>
+                <a href="https://scmsal.github.io/calculator">View in browser</a>
               </div>
             
             </ul>
           </div>
           <hr>
+        
           <div class="project-card">
-            <h3>Data validation</h3>
+            <h3>Codewars kata</h3>
             <ul>
-              <li>Used JavaScript to create online survey forms with data validation. </li>
+              <li>Developed short Java programs to solve scenarios created by other users</li>
+              <a href="https://www.codewars.com/users/Code-name-go/completed_solutions">
+                <img src= https://www.codewars.com/users/Code-name-go/badges/large style="margin-left:30px">
+              </a>
+              
             </ul>
           </div>
     </div>
     </section>
     <!-- Contact-->
+    <!---- I added this section-->
     <section id="contact">
       <div class="footer">
-        <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-        email
+        <div>
+        Contact me
+        </div>
+
+        <div class="contacticons">
+          <div class="envelopebutton" onclick="showEmail()" >
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope">
+            <div id="email">scm.salifu@gmail.com</div>     
+          </div>
+        
+       
+          
+          <!-- Makes email address appear on click-->
+          <script>
+              function showEmail() {
+                var text = document.getElementById("email");
+                if  (text.style.display=="none"){
+                  text.style.display = "inline";
+                }
+                else {
+                  text.style.display="none";
+                }
+                
+              }
+
+          </script>
+          <div class="linkbutton">
+            <a  href="https://www.linkedin.com/in/stephanie-s-a7091854/">
+            <img src="html_finalprojimages/linkedin-4-48.png">
+            </a>
+          </div>
+        </div>
       </div>
+      
+      
     </section>
     <div class="iconbutton">
       <a href="#home">
@@ -124,5 +167,7 @@
       </svg>
       </a>
     </div>
+    
+  
   </body>
 </html>
