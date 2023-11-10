@@ -2,31 +2,37 @@
 <html>
   <head>
     <title>Stephanie Salifu - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css"/>
+    <script src="script.js"></script>
+    <!--hamburger menu icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
     <!-- Navigation Bar -->
     <nav>
-      <div id="home">
-        <div class="profile_name">
+     
+        <div class="profile_name" id="home">
           Stephanie S
-          
         </div>
-        <div class="topdiv">
-          <a class="topmenu" href="#about-me">About Me</a>
-          <a class="topmenu" href="#skills">Skills</a>
-          <a class="topmenu" href="#projects">Projects</a>
-          <a class="topmenu" href="#contact">Contact</a>
+        <div class="container-menu" id="Menu">
+          <a class="menulink" href="#about-me">About Me</a>
+          <a class="menulink" href="#skills">Skills</a>
+          <a class="menulink" href="#projects">Projects</a>
+          <a class="menulink" href="#contact">Contact</a>
+          <a class="icon" href="javascript:void(0);"  onclick="myFunction()">
+            <i class="fa fa-bars"></i>  </a>
         </div>
-      </div>    
     </nav>
 
     <!-- About Me -->
     <section id="about-me" class="container">
       <div>
-       
-        <img src= "html_finalprojimages/mymacbook.png" class="profile_image"/>
+        <picture>
+          <img src= "html_finalprojimages/mymacbook.png">
+        </picture>
       </div>
       <div>
           <h1>
@@ -81,8 +87,8 @@
           <div class="project-card">
             <h3>This website</h3>
             <ul>
-              <li>Created with HTML and CSS3. Originally based on a template provided by the Introduction to Web Development 
-                course. I changed the layout, contents, and style, adding buttons, icons, fonts, and links.
+              <li>Created with HTML and CSS3, originally based on a project tutorial during the Edx.org Introduction to Web Development 
+                course. I changed the layout, contents, and style, adding buttons, icons, fonts, and responsiveness. It is still a work in progress.
               </li>
             </ul>
           </div>
@@ -130,23 +136,7 @@
             <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope">
             <div id="email">scm.salifu@gmail.com</div>     
           </div>
-        
-       
-          
-          <!-- Makes email address appear on click-->
-          <script>
-              function showEmail() {
-                var text = document.getElementById("email");
-                if  (text.style.display=="none"){
-                  text.style.display = "inline";
-                }
-                else {
-                  text.style.display="none";
-                }
-                
-              }
-
-          </script>
+      
           <div class="linkbutton">
             <a  href="https://www.linkedin.com/in/stephanie-s-a7091854/">
             <img src="html_finalprojimages/linkedin-4-48.png">
