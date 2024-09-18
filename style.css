@@ -33,7 +33,9 @@ nav {
   text-decoration:none;
   font-family: "Merriweather", Helvetica, Arial, Verdana, "Gill Sans", serif;
 }
+@media (max-width: 500px) {
 
+}
 .menulink:hover {
   color: white;
   font-weight: bold;
@@ -60,7 +62,8 @@ nav {
 h2 {
   text-align: left;
   font-size: 50px;
-  color: #2F659F;;
+  color: #2F659F;
+  font-family: "Merriweather", Helvetica, Arial, Verdana, "Gill Sans", serif;
   margin: 30px;
   margin-bottom: 10px;
 }
@@ -183,6 +186,8 @@ picture img{
 
 .project-card h3 {
   font-size: 25px;
+  color: #de8014;
+  font-family: "Merriweather", Helvetica, Arial, Verdana, "Gill Sans", serif;
   margin-left: 30px;
 }
 
