@@ -136,6 +136,7 @@ picture img{
   padding: 10px;
   width: fit-content;
   font-size: 20px;
+  max-height: 120px;
   
 }
 
@@ -145,6 +146,13 @@ picture img{
   align-items: center;
 }
 
+.skill h4 {
+  font-size: 50px;
+  color: #2F659F;
+  margin-top: 20px;
+  font-weight: bold;
+
+}
 .skills h6 {
   align-items: center;
   font-size: 20px;
@@ -160,7 +168,14 @@ picture img{
   margin-block-start: 5px;
   margin-block-end: 5px;
 } 
-
+.certifications{
+  display: flex;
+}
+.certifications img{
+  height: 170px;
+  margin-left: 20px;
+  display: flex;
+}
 .flex_center {
   display: flex;
   align-items: center;
