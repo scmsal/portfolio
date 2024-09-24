@@ -2,65 +2,69 @@
 
 body {
   font-family: Helvetica, Arial, Verdana, "Gill Sans", sans-serif;
+  html {
+    font-size: 20px;
+  }
+  
 }
+
+@media screen and (max-width: 600px) {
+  container-menu li {
+     padding: 0.25rem;
+     display: block;
+     text-align: center;
+   }
+  profile_name {
+     float: left;
+     width: 25%;
+     font-family: "Great Vibes", "Brush Script MT", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+     font-style: italic;
+     color:rgb(212, 238, 242);
+     font-size: 2rem;
+     
+   }
+ }
 
 /* Navigation Bar */
 
 nav {
+  display: flex;
+  justify-content: space-around;
   background-color:  #2F659F;
-  background-size: cover;
+  padding-top: 1.5rem;;
   padding-bottom: 1rem;
-  overflow: scroll;
   height: fit-content;
-  margin-left:-1cm;
-  margin-right:-1cm;
-  margin-top: -1rem;
-  padding-top: 3rem; 
+  
 }
 
 .container-menu ul {
   padding: 10px;
+  float: right;
 }
 
 .container-menu li {
   display: inline;
-  padding: 0px 10px 0px 10px;
 
-}
-.container-menu {
-  float: right;
-  padding-right: 1cm;
- 
+
 }
 
 .menulink {
   color:rgb(212, 238, 242);
-  margin: 10px;
-  padding-top: 3rem ;
-  padding: 20px;
+  margin: .7rem;
+  padding-top: 1rem ;
+  padding: 1rem;
   font-size: 2rem;
   text-decoration:none;
   font-family: "Merriweather", Helvetica, Arial, Verdana, "Gill Sans", serif;
 }
-@media (max-width: 600px) {
- .container-menu li {
-    padding: 5px;
-    display: block;
-  }
 
-  container-menu {
-    text-align: center;
-    padding-right: 20px;
-  }
-  .nav {
-    height:fit-content;
-  }
-}
 .menulink:hover {
   color: white;
   font-weight: bold;
   text-decoration: underline;
 }
+
+
 
 .icon {
   display: none;
@@ -69,8 +73,9 @@ nav {
 
 
 .profile_name {
+  width:25%;
   float: left;
-  padding-left: 2cm;
+  padding-left: 1 rem;
   font-family: "Great Vibes", "Brush Script MT", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   font-style: italic;
   color:rgb(212, 238, 242);
