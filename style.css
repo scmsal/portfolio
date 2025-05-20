@@ -126,8 +126,7 @@ h2 {
   color: rgb(128, 128, 128);
   text-align: justify;
   margin-top: -.5cm;
-  padding-bottom: 10px;
-
+  padding-bottom:0.5rem;
   text-justify: inter-word;
   
 }
